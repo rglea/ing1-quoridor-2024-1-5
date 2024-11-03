@@ -1,0 +1,38 @@
+
+
+int main(void)
+{
+    int nbrjoueur;
+    char joueur1,joueur2,joueur3,joueur4;
+    printf("Combien de joueurs pour cette partie?",nbrjoueur);
+    scanf("%d",nbrjoueur);
+
+    if (nbrjoueur==2) {
+            printf("Entrer le nom du Joueur 1: ", joueur1);
+            scanf("%s",joueur1);
+            printf("Entrer le nom du Joueur 2: ", joueur2);
+            scanf("%s",joueur2);
+            printf("Les noms des deux joueurs sont: " ,joueur1,joueur2);
+    }
+    if (nbrjoueur==3) {
+        printf("Entrer le nom du Joueur 1: ", joueur1);
+        scanf("%s",joueur1);
+        printf("Entrer le nom du Joueur 2: ", joueur2);
+        scanf("%s",joueur2);
+        printf("Entrer le nom du Joueur 3: ", joueur3);
+        scanf("%s",joueur3);
+        printf("Les noms des deux joueurs sont: " ,joueur1,joueur2,joueur3);
+    }
+    if (nbrjoueur==4) {
+        printf("Entrer le nom du Joueur 1: ", joueur1);
+        scanf("%s",joueur1);
+        printf("Entrer le nom du Joueur 2: ", joueur2);
+        scanf("%s",joueur2);
+        printf("Entrer le nom du Joueur 3: ", joueur3);
+        scanf("%s",joueur3);
+        printf("Entrer le nom du Joueur 4: ", joueur4);
+        scanf("%s",joueur4);
+        printf("Les noms des deux joueurs sont: " ,joueur1,joueur2,joueur3,joueur4);
+    }
+    return 0;
+}
